@@ -1,23 +1,8 @@
 import React from "react";
-import styled from "styled-components";
-import {Row, Col} from 'react-bootstrap';
+import {Wrapper, Image, Content} from './styles/BannerStyle';
+import {Row} from 'react-bootstrap';
 
 export default function Banner() {
-  const Wrapper = styled.div`
-    position: relative;
-    width: 100%;
-    height: auto;
-  `;
-
-  const Image = styled.img`
-    width: 100%;
-    height: 100%;
-    z-index: -1;
-  `;
-
-  const Content = styled.div`
-      z-index: 1;
-   `;
 
   const imagePath = "/images/picture-hero.png";
 
@@ -25,11 +10,19 @@ export default function Banner() {
     <Wrapper>
         <Row style={{margin: 0}}>
             <Image src={imagePath} />
-            <Col md={6}>
                 <Content>
-                
+                  <div>
+                    <h1 class="title">
+                      Welche Nahrungsmittel verträgst du nicht? Wir helfen dir dabei, es
+                      rauszufinden.
+                    </h1>
+                    <h2 class="subtitle">
+                      Erfahre hier mit dem digitalen Schnelltest, welche Lebensmittel du künftig
+                      meiden solltest und mit welchen Alternativen dein Speiseplan
+                      abwechslungsreich bleibt.
+                    </h2>
+                  </div>
                 </Content>
-            </Col>
         </Row>
     </Wrapper>
   );
