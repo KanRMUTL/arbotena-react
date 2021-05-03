@@ -6,7 +6,7 @@ import Menu from './Menu';
 import Button from '../utilies/Button';
 
 export default function TopMenu() {
-    const [logoPath, setLogoPath] = useState('/images/logo.png');
+    const [logoPath, setLogoPath] = useState('/images/Logo.png');
 
     return (
         <Wrapper>
