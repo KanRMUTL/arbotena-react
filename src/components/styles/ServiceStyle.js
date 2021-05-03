@@ -1,9 +1,16 @@
 import styled from 'styled-components';
+import media from '../../media.js';
 
 export const Wrapper = styled.div`
     display: flex;
     justify-content: center;
     padding: 5% 10%;
+    ${media.tablet} {
+      display: none;  
+    }
+    ${media.smartphone} {
+      display: none;  
+    }
 
     .text-container {
         display: flex;
