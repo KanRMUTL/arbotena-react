@@ -38,5 +38,8 @@ export const GlobalStyle = styled.div`
         justify-content: space-between;
     }
 
-
+    .hover-white {
+        background-color: #ffffff;
+        color: rgb(190, 168, 86);
+    }
 `;

@@ -6,13 +6,16 @@ export const Wrapper = styled.div`
         padding: 12px;
         cursor: pointer;
         color: #1890ff;
-       
-    `;
-
-export const Link = styled.a`
-        padding: 0px 15px;
-        color: #fff;
-        &:hover {
-            color: rgb(190, 168, 86);
+        
+        a {
+            padding: 0px 15px;
+            color: #fff;
+            &:hover {
+                color: rgb(190, 168, 86);
+            }
         }
-    `; 
+
+        .border-right {
+            border-right: 1px solid #ffffff;
+        }
+    `;

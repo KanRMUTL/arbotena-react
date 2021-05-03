@@ -25,10 +25,21 @@ export default function Banner() {
                     </p>
                     <div className="flex sp-between">
                       <div>
-                        <Button label="Für Quick Check registrieren" bgColor="rgb(28, 30, 33)" textColor="rgb(190, 168, 86)" isHoverAction/>
+                        <Button 
+                          label="Für Quick Check registrieren" 
+                          bgColor="rgb(28, 30, 33)" 
+                          textColor="rgb(190, 168, 86)" 
+                          isHoverAction
+                        />
                       </div>
                       <div>
-                        <Button label="Für Quick Check registrieren" bgColor="transparent" textColor="#ffffff" showPlay border />
+                        <Button 
+                          label="Für Quick Check registrieren" 
+                          bgColor="transparent" 
+                          textColor="#ffffff" 
+                          hoverColor="rgb(190, 168, 86)"
+                          showPlay 
+                          border />
                       </div>
                     </div>
                   </div>

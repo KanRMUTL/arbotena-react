@@ -13,6 +13,7 @@ export const Wrapper = styled.div`
     .title {
         font-size: 40px;
         font-weight: 300;
+        line-height: 1;
     }
 
     .subtitle {
