@@ -1,13 +1,19 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
+import media from '../../media.js';
 
 export const Wrapper = styled.div`
     width: 100%;
     display: flex;
-    padding: 3% 18%;
+    padding: 3% 3%;
     background-color: rgb(246, 246, 246);
-
+    ${media.tablet} {
+      display: none;  
+    }
     .content {
-        margin-left: 15%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 10%;
     }
 
     .title {
