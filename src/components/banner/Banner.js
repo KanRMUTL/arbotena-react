@@ -28,7 +28,7 @@ export default function Banner() {
                     <p className="subtitle text-white">
                      {subtitle}
                     </p>
-                    <div className="flex sp-between">
+                    <div className="flex button-section">
                       <div>
                         <Button 
                           label="Für Quick Check registrieren" 

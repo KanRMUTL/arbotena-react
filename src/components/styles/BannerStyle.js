@@ -20,6 +20,9 @@ export const Content = styled.div`
     position: absolute;
     display: flex;
     align-items: center;
+    ${media.smartphone} {
+      width: 100%;    
+    }
 
     .innerContent{
       word-break: break-word;
@@ -30,6 +33,10 @@ export const Content = styled.div`
       ${media.tablet} {
         width: 145%;
       }
+      ${media.smartphone} {
+        padding: 1.8%;
+        width: 100%;
+      }
     }
     
     .title {
@@ -37,6 +44,9 @@ export const Content = styled.div`
       font-weight: 300;
       font-size: 48px;
       max-width: 516px;
+      ${media.smartphone} {
+        font-size: 32px;
+      }
     }
 
     .subtitle {
@@ -44,5 +54,15 @@ export const Content = styled.div`
       line-height: 1.3;
       padding-top: 3%;
       padding-bottom: 3%;
+    }
+    ${media.smartphone} {
+      .button-section {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .button-section div {
+        padding-top: 1.5%;
+      }
     }
  `;
