@@ -12,6 +12,10 @@ export const GlobalStyle = styled.div`
         color: #ffffff;
     }
 
+    .text-center {
+        text-align: center;
+    }
+
     .flex { 
         display: flex;
     }
