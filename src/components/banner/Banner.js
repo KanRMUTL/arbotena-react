@@ -14,7 +14,12 @@ export default function Banner() {
   return (
     <Wrapper>
         <Row style={{margin: 0}}>
-            <Image src={imagePath} />
+            <div className="mobile-hide tablet-hide">
+              <Image src={imagePath} />
+            </div>
+            <div className="desktop-hide phone-hide">
+              <Image src="/images/rectangle.png" />
+            </div>
                 <Content>
                   <div className="innerContent">
                     <h1 className="title text-white">

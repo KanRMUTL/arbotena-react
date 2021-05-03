@@ -1,5 +1,5 @@
 import styled from "styled-components";
-
+import media from "../../media"
 export const Wrapper = styled.div`
   position: relative;
   width: 100%;
@@ -23,8 +23,13 @@ export const Content = styled.div`
 
     .innerContent{
       word-break: break-word;
-      width: 75%;
+      width: 95%;
       padding-left: 20%;
+      display: flex;
+      flex-direction: column;
+      ${media.tablet} {
+        width: 145%;
+      }
     }
     
     .title {

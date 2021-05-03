@@ -12,19 +12,6 @@ export const GlobalStyle = styled.div`
         color: #ffffff;
     }
 
-    .myText {
-        color: #efef00;
-        ${media.desktop} {
-            color: #000;
-        }
-        ${media.tablet} {
-            color: #3e44ee;
-        }
-        ${media.smartphone} {
-            color: #a0e;
-        }
-    }
-
     .flex { 
         display: flex;
     }
@@ -42,4 +29,23 @@ export const GlobalStyle = styled.div`
         background-color: #ffffff;
         color: rgb(190, 168, 86);
     }
+
+    .desktop-hide {
+        ${media.desktop} {
+            display: none;
+        }
+    }
+
+    .tablet-hide {
+        ${media.tablet} {
+            display: none;
+        }
+    }
+
+    .mobile-hide {
+        ${media.smartphone} {
+            display: none;
+        }
+    }
+
 `;

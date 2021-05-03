@@ -16,11 +16,15 @@ export default function TopMenu() {
                         <Logo path={logoPath}/>
                     </Col>
                     <Col md="auto">
+                    <div className="tablet-hide mobile-hide">
                         <Menu />
+                    </div>
                     </Col>
                     <Col xs lg="2">
-                        <Button label="Registrieren"  bgColor="rgb(190, 168, 86)" textColor="#ffffff"/>
-                </Col>
+                        <div className="tablet-hide mobile-hide">
+                            <Button label="Registrieren"  bgColor="rgb(190, 168, 86)" textColor="#ffffff"/>
+                        </div>
+                    </Col>
                 </Row>
             </Container>
         </Wrapper>
