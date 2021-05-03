@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 import { Container, Row, Col } from "react-bootstrap";
-import {Wrapper} from './styles/TopMenuStyle';
+import {Wrapper} from '../styles/TopMenuStyle';
 import Logo from './Logo';
 import Menu from './Menu';
 import Button from '../utilies/Button';

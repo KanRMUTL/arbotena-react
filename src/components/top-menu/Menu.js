@@ -1,5 +1,5 @@
 import React from 'react'
-import {Wrapper, Link} from './styles/MenuStyle';
+import {Wrapper, Link} from '../styles/MenuStyle';
 
 export default function Menu() {
     const menu = [

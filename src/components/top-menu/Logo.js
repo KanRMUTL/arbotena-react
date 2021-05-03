@@ -1,5 +1,5 @@
 import React from 'react';
-import {Container} from './styles/LogoStyle';
+import {Container} from '../styles/LogoStyle';
 export default function Logo({path}) {
 
     return (

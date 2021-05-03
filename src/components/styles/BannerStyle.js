@@ -20,4 +20,24 @@ export const Content = styled.div`
     position: absolute;
     display: flex;
     align-items: center;
+
+    .innerContent{
+      word-break: break-word;
+      width: 75%;
+      padding-left: 20%;
+    }
+    
+    .title {
+      line-height: 1.3;
+      font-weight: 300;
+      font-size: 48px;
+      max-width: 516px;
+    }
+
+    .subtitle {
+      font-size: 18px;
+      line-height: 1.3;
+      padding-top: 3%;
+      padding-bottom: 3%;
+    }
  `;
