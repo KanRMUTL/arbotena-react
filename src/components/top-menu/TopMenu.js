@@ -19,7 +19,7 @@ export default function TopMenu() {
                         <Menu />
                     </Col>
                     <Col xs lg="2">
-                        <Button label="Registrieren"/>
+                        <Button label="Registrieren"  bgColor="rgb(190, 168, 86)" textColor="#ffffff"/>
                 </Col>
                 </Row>
             </Container>

@@ -1,7 +1,7 @@
 import React from "react";
-import {Wrapper, Image, Content} from '../styles/BannerStyle';
-import {Row} from 'react-bootstrap';
-import Button from '../utilies/Button';
+import {Wrapper, Image, Content} from "../styles/BannerStyle";
+import {Row} from "react-bootstrap";
+import Button from "../utilies/Button";
 
 export default function Banner() {
 
@@ -25,10 +25,10 @@ export default function Banner() {
                     </p>
                     <div className="flex sp-between">
                       <div>
-                        <Button label="Für Quick Check registrieren" />
+                        <Button label="Für Quick Check registrieren" bgColor="rgb(28, 30, 33)" textColor="rgb(190, 168, 86)" isHoverAction/>
                       </div>
                       <div>
-                        <Button label="Für Quick Check registrieren" showPlay />
+                        <Button label="Für Quick Check registrieren" bgColor="transparent" textColor="#ffffff" showPlay border />
                       </div>
                     </div>
                   </div>
