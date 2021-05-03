@@ -9,6 +9,9 @@ export const Wrapper = styled.div`
     ${media.tablet} {
       display: none;  
     }
+    ${media.smartphone} {
+      display: none;  
+    }
     .content {
         display: flex;
         flex-direction: column;
