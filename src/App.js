@@ -3,6 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import {GlobalStyle} from './globalStyle';
 import TopMenu from "./components/top-menu/TopMenu";
 import Banner from "./components/banner/Banner";
+import About from "./components/About/About";
 import { Container } from "react-bootstrap";
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <GlobalStyle>
         <TopMenu />
         <Banner/>
+        <About/>
       </GlobalStyle>
     </Container>
   );
